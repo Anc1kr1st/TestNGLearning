@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="4" failed="3" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href="C:\Users\The God\Downloads\owl.jpg" target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\The God\Downloads\owl.jpg" target="_blank"><img height=200 width=200 src="C:\Users\The God\Downloads\owl.jpg"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\The God\Downloads\owl.jpg" target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\The God\Downloads\owl.jpg" target="_blank"><img height=200 width=200 src="C:\Users\The God\Downloads\owl.jpg"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\The God\Downloads\owl.jpg" target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\The God\Downloads\owl.jpg" target="_blank"><img height=200 width=200 src="C:\Users\The God\Downloads\owl.jpg"></a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-02T22:01:29 SELČ" name="Functional Suite" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="244">
+    <groups>
+      <group name="bvt">
+        <method signature="TestCase3.fouthTest()[pri:4, instance:testcases.TestCase3@51399530]" name="fouthTest" class="testcases.TestCase3"/>
+      </group> <!-- bvt -->
+      <group name="functional">
+        <method signature="TestCase1.doUserReg()[pri:1, instance:testcases.TestCase1@4f83df68]" name="doUserReg" class="testcases.TestCase1"/>
+        <method signature="TestCase1.doLogin()[pri:2, instance:testcases.TestCase1@4f83df68]" name="doLogin" class="testcases.TestCase1"/>
+        <method signature="TestCase3.doLogin()[pri:2, instance:testcases.TestCase3@51399530]" name="doLogin" class="testcases.TestCase3"/>
+        <method signature="TestCase3.thirdTest()[pri:3, instance:testcases.TestCase3@51399530]" name="thirdTest" class="testcases.TestCase3"/>
+      </group> <!-- functional -->
+      <group name="function">
+        <method signature="TestCase3.doUserReg()[pri:1, instance:testcases.TestCase3@51399530]" name="doUserReg" class="testcases.TestCase3"/>
+      </group> <!-- function -->
+      <group name="smoke">
+        <method signature="TestCase2.validateTitles()[pri:0, instance:testcases.TestCase2@765d7657]" name="validateTitles" class="testcases.TestCase2"/>
+        <method signature="TestCase3.doUserReg()[pri:1, instance:testcases.TestCase3@51399530]" name="doUserReg" class="testcases.TestCase3"/>
+        <method signature="TestCase3.doLogin()[pri:2, instance:testcases.TestCase3@51399530]" name="doLogin" class="testcases.TestCase3"/>
+        <method signature="TestCase3.thirdTest()[pri:3, instance:testcases.TestCase3@51399530]" name="thirdTest" class="testcases.TestCase3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-07-02T22:01:29 SELČ" name="Login Test" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="68">
+      <class name="testcases.TestCase1">
+        <test-method is-config="true" signature="creatingDBConn()[pri:0, instance:testcases.TestCase1@4f83df68]" started-at="2023-07-02T22:01:29 SELČ" name="creatingDBConn" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingDBConn -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@4f83df68]" started-at="2023-07-02T22:01:29 SELČ" name="launchBrowser" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase1@4f83df68]" started-at="2023-07-02T22:01:29 SELČ" name="doUserReg" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserReg -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@4f83df68]" started-at="2023-07-02T22:01:29 SELČ" name="closeBrowser" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@4f83df68]" started-at="2023-07-02T22:01:29 SELČ" name="launchBrowser" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase1@4f83df68]" started-at="2023-07-02T22:01:29 SELČ" name="doLogin" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@4f83df68]" started-at="2023-07-02T22:01:29 SELČ" name="closeBrowser" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDBConn()[pri:0, instance:testcases.TestCase1@4f83df68]" started-at="2023-07-02T22:01:29 SELČ" name="closeDBConn" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConn -->
+      </class> <!-- testcases.TestCase1 -->
+    </test> <!-- Login Test -->
+    <test started-at="2023-07-02T22:01:29 SELČ" name="Validate Title Test" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="26">
+      <class name="testcases.TestCase2">
+        <test-method signature="validateTitles()[pri:0, instance:testcases.TestCase2@765d7657]" started-at="2023-07-02T22:01:29 SELČ" name="validateTitles" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="15" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Yahoo.com] but found [Gmail.com],
+image not present expected [false] but found [true],
+test box not present expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Yahoo.com] but found [Gmail.com],
+image not present expected [false] but found [true],
+test box not present expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testcases.TestCase2.validateTitles(TestCase2.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\Users\The God\Downloads\owl.jpg" target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\The God\Downloads\owl.jpg" target="_blank"><img height=200 width=200 src="C:\Users\The God\Downloads\owl.jpg"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitles -->
+      </class> <!-- testcases.TestCase2 -->
+    </test> <!-- Validate Title Test -->
+    <test started-at="2023-07-02T22:01:29 SELČ" name="Dependency Test" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="39">
+      <class name="testcases.TestCase3">
+        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase3@51399530]" started-at="2023-07-02T22:01:29 SELČ" name="doUserReg" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User not registered succesfully]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User not registered succesfully
+at org.testng.Assert.fail(Assert.java:111)
+at testcases.TestCase3.doUserReg(TestCase3.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\Users\The God\Downloads\owl.jpg" target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\The God\Downloads\owl.jpg" target="_blank"><img height=200 width=200 src="C:\Users\The God\Downloads\owl.jpg"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doUserReg -->
+        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase3@51399530]" started-at="2023-07-02T22:01:29 SELČ" name="doLogin" finished-at="2023-07-02T22:01:29 SELČ" depends-on-methods="testcases.TestCase3.doUserReg" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testcases.TestCase3.doLogin() on instance testcases.TestCase3@51399530 depends on not successfully finished methods 
+[testcases.TestCase3.doUserReg() on instance testcases.TestCase3@51399530]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testcases.TestCase3.doLogin() on instance testcases.TestCase3@51399530 depends on not successfully finished methods 
+[testcases.TestCase3.doUserReg() on instance testcases.TestCase3@51399530]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="thirdTest()[pri:3, instance:testcases.TestCase3@51399530]" started-at="2023-07-02T22:01:29 SELČ" name="thirdTest" finished-at="2023-07-02T22:01:29 SELČ" depends-on-methods="testcases.TestCase3.doUserReg" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method signature="fouthTest()[pri:4, instance:testcases.TestCase3@51399530]" started-at="2023-07-02T22:01:29 SELČ" name="fouthTest" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fouthTest -->
+      </class> <!-- testcases.TestCase3 -->
+    </test> <!-- Dependency Test -->
+    <test started-at="2023-07-02T22:01:29 SELČ" name="Failure Test" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="8">
+      <class name="testcases.TestFailure">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestFailure@7c7a06ec]" started-at="2023-07-02T22:01:29 SELČ" name="setUp" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="doLogin()[pri:0, instance:testcases.TestFailure@7c7a06ec]" started-at="2023-07-02T22:01:29 SELČ" name="doLogin" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing the login test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing the login test
+at org.testng.Assert.fail(Assert.java:111)
+at testcases.TestFailure.doLogin(TestFailure.java:10)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\Users\The God\Downloads\owl.jpg" target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\The God\Downloads\owl.jpg" target="_blank"><img height=200 width=200 src="C:\Users\The God\Downloads\owl.jpg"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestFailure@7c7a06ec]" started-at="2023-07-02T22:01:29 SELČ" name="tearDown" finished-at="2023-07-02T22:01:29 SELČ" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestFailure -->
+    </test> <!-- Failure Test -->
+  </suite> <!-- Functional Suite -->
+</testng-results>
